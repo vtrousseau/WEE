@@ -1,14 +1,13 @@
 div.infoW {
-  font-size: 30px;
+  font-size: 20px;
   }
 
 div.infoW > div > div  {
-  font-size: 20px;
+  font-size: 14px;
   padding-top: 10px;
 }
 
 .markerLabel  {
 font-weight: bold;
 color: #FFB421;
-  margin-top: 100px;
 }
