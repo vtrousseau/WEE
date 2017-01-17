@@ -26,6 +26,7 @@ color: #FFB421;
 .groupItem {
 padding-top: 10px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding-bottom: 10px;
 }
 
 .groupList :nth-child(1) {
