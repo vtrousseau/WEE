@@ -36,3 +36,13 @@ padding-top: 10px;
   font-weight: bold;
 color: #FFB421;
 }
+
+#filtersTable tbody tr:first-child td {
+  color: #FAB83C;
+ font-weight: bold;
+}
+
+#filtersTable tbody > tr > td :nth-child(1) {
+  color: black;
+ font-weight: normal;
+}
