@@ -49,3 +49,7 @@ color: #FFB421;
   color: black;
  font-weight: normal;
 }
+
+#searchDiv img {
+ visibility: hidden;
+}
