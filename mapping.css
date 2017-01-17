@@ -7,6 +7,16 @@ div.infoW > div > div  {
   padding-top: 10px;
 }
 
+div.infoW > div :nth-child(odd)  {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+div.infoW > div :nth-child(even)  {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
 .markerLabel  {
 font-weight: bold;
 color: #FFB421;
