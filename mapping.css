@@ -40,6 +40,7 @@ color: #FFB421;
 #filtersTable tbody tr:first-child td {
   color: #FAB83C;
  font-weight: bold;
+  padding: 10px 10px 5px 0px;
 }
 
 #filtersTable tbody > tr > td :nth-child(1) {
