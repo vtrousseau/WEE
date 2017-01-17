@@ -1,17 +1,14 @@
+div.infoW {
+  font-size: 30px;
+  }
 
-div.infoW:nth-child(1) {
-font-size: 20px;
+div.infoW > div > div  {
+  font-size: 20px;
+  padding-top: 10px;
 }
 
-.marketLabel {
-font-style: bold;
+.markerLabel  {
+font-weight: bold;
 color: #FFB421;
-}
-
-div nth-child(odd) {
-    background: red;
-}
-
-div nth-child(even) {
-    background: blue;
+  margin-top: 100px;
 }
