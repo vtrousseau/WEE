@@ -17,7 +17,7 @@ padding-top: 10px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.groupItem :nthchild(1) {
+.groupList :nth-child(1) {
 padding-top: 10px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
