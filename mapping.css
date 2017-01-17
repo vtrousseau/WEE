@@ -1,6 +1,11 @@
 
-.infoW:nth-child(1) {
+div.infoW:nth-child(1) {
 font-size: 20px;
+}
+
+.marketLabel {
+font-style: bold;
+color: #FFB421;
 }
 
 div nth-child(odd) {
