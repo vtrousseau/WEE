@@ -11,3 +11,8 @@ div.infoW > div > div  {
 font-weight: bold;
 color: #FFB421;
 }
+
+.groupItem {
+padding-top: 10px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
