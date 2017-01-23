@@ -4,22 +4,23 @@ div.infoW {
   }
 
 div.infoW > div > div  {
-  font-size: 14px;
+  font-size: 12px;
   padding-top: 10px;
-    line-height: 1em;
+    line-height: 1.1em;
 }
 
 div.infoW > div :nth-child(odd)  {
-  font-size: 14px;
+  font-size: 12px;
   padding-top: 5px;
 }
 
 div.infoW > div :nth-child(even)  {
-  font-size: 14px;
+  font-size: 12px;
   padding-top: 5px;
 }
 
 .markerLabel  {
+  font-size: 14px;
 font-weight: bold;
 color: #FFB421;
 }
