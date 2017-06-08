@@ -7,28 +7,7 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
-
-body {
-  font: 14px/1 'Open Sans', sans-serif;
-  color: #555;
-  background: #eee;
-}
-
-h1 {
-  padding: 50px 0;
-  font-weight: 400;
-  text-align: center;
-}
-
-p {
-  margin: 0 0 20px;
-  line-height: 1.5;
-}
-
-main {
+maintab {
   min-width: 320px;
   max-width: 800px;
   padding: 50px;
@@ -36,17 +15,17 @@ main {
   background: #fff;
 }
 
-section {
+sectiontab {
   display: none;
   padding: 20px 0 0;
   border-top: 1px solid #ddd;
 }
 
-input {
+inputtab {
   display: none;
 }
 
-label {
+labeltab {
   display: inline-block;
   margin: 0 0 -1px;
   padding: 15px 25px;
@@ -56,23 +35,23 @@ label {
   border: 1px solid transparent;
 }
 
-label:before {
+labeltab:before {
   font-family: fontawesome;
   font-weight: normal;
   margin-right: 10px;
 }
 
-label[for*='1']:before { content: '\f1cb'; }
-label[for*='2']:before { content: '\f17d'; }
-label[for*='3']:before { content: '\f16b'; }
-label[for*='4']:before { content: '\f1a9'; }
+labeltab[for*='1']:before { content: '\f1cb'; }
+labeltab[for*='2']:before { content: '\f17d'; }
+labeltab[for*='3']:before { content: '\f16b'; }
+labeltab[for*='4']:before { content: '\f1a9'; }
 
-label:hover {
+labeltab:hover {
   color: #888;
   cursor: pointer;
 }
 
-input:checked + label {
+inputtab:checked + labeltab {
   color: #555;
   border: 1px solid #ddd;
   border-top: 2px solid orange;
@@ -87,17 +66,17 @@ input:checked + label {
 }
 
 @media screen and (max-width: 650px) {
-  label {
+  labeltab {
     font-size: 0;
   }
-  label:before {
+  labeltab:before {
     margin: 0;
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  label {
+  labeltab {
     padding: 15px;
   }
 }
