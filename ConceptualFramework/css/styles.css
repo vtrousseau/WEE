@@ -321,7 +321,7 @@ p, h4 {
     }
 	#principleslist {
 	padding-top: 5%;
-	background-image: url('../Images/principles-image-lg.jpg'); 
+	background: url('../Images/principles-image-lg.jpg') no-repeat center top fixed; 
 }
 	.illustration {
 	width: 80%;
