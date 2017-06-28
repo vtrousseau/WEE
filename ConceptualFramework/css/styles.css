@@ -160,6 +160,14 @@ section{
 	margin-top: -9%;
 }
 
+.download {
+font-size: 2em;
+color: #F16E22;
+text-decoration: none;
+padding-top: 20px;
+text-align: center;
+}
+
 .icon {
 width: 120px;
 float: left;
