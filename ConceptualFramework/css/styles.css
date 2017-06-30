@@ -136,21 +136,15 @@ section{
 	 color: white;
 }
 
-.titletext1 {
+.titletext {
   z-index: 100;
   position: absolute;
   color: white;
   text-align: left;
     left: 5%;
+bottom: 10%;
 }
 
-.titletext2 {
-  z-index: 100;
-  position: absolute;
-  color: white;
-  text-align: left;
-    left: 5%;
-}
 
 .sectionheading {
 	padding: 10%;
@@ -289,12 +283,6 @@ font-size: 16px;
 	padding-top: 5%;
 	background: url('../Images/principles-image-sl.jpg') no-repeat center top fixed; 
 }
-.titletext1 {
-  bottom: 21%;
-}
-.titletext2 {
-  bottom: 15%;
-}
 .illustrationme{
 width: 95%;
 max-width: 1097px;	
@@ -360,12 +348,6 @@ font-size: 14px;
 
     /* Custom */
     @media only screen and (max-width : 855px) {
-.titletext1 {
-  bottom: 40%;
-}
-.titletext2 {
-  bottom: 25%;
-}
 .c1-2 {
 	width: 80%;
 	margin: 0 10%;
@@ -426,27 +408,13 @@ font-size: 12px;
 	color: transparent;
 	text-shadow: none;
 }
-.titletext1 {
-  bottom: 50%;
-}
-.titletext2 {
-  bottom: 25%;
-}
+
 .icon-themes{
 	width: 0px;
 	margin-right: 10px;
 }
 	}
 
-/* Custom */ 
-    @media only screen and (max-width : 420px) {
-.titletext1 {
-  bottom: 60%;
-}
-.titletext2 {
-  bottom: 20%;
-}
-	}
 	
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 387px) {
